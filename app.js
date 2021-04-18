@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
-//when no path is found
+//when no path is found defualt page displayed
 app.use(errorController.get404);
 
 app.listen(3000);
