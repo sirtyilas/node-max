@@ -21,7 +21,6 @@ app.use(shopRoutes);
 
 //when no path is found defualt page displayed
 //adding this to provoke big trouble
-//my cahneg on master
 app.use(errorController.get404);
 
 app.listen(3000);
