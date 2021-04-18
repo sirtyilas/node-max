@@ -20,6 +20,7 @@ app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
 //when no path is found defualt page displayed
+//adding this for rebase conflict
 app.use(errorController.get404);
 
 app.listen(3000);
